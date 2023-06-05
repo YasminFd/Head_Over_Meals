@@ -8,7 +8,7 @@ The project we present to you is Head Over Meals, a recipe management system tha
 <li>Yasmine Fadel</li>
 <li>Dima Moukhader</li>
 <li>Israa Harb</li>
-
+</ul>
 Before running the application, change database credentials ( localhost , database name, username , password ) in DBConnection java class.
 
 For a better demonstration about our application, you either run the cmd file attached with the project folder which will create the database for you, or you can manually create a database with the name homdb and import the attached sql file to it.
