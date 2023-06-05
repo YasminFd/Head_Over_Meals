@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="container" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-border-color: #FFC490; -fx-border-width: 2; -fx-border-radius: 10;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gui.controllers.ReviewController">
+   <children>
+      <Label fx:id="title" prefHeight="27.0" prefWidth="596.0" style="-fx-border-radius: 10;" text="Review Title">
+         <font>
+            <Font name="Trebuchet MS" size="20.0" />
+         </font>
+      </Label>
+      <HBox fx:id="stars" prefHeight="29.0" prefWidth="596.0" spacing="5.0">
+         <children>
+
+         </children>
+      </HBox>
+      <Label fx:id="comment" alignment="TOP_LEFT" prefHeight="110.0" prefWidth="578.0" text="this recipe is bad!" wrapText="true" >
+         <font>
+            <Font name="Trebuchet MS" size="15.0" />
+         </font>
+      </Label>
+   </children>
+   <padding>
+      <Insets left="15.0" top="15.0" />
+   </padding>
+</VBox>
